@@ -1,0 +1,24 @@
+{
+    "name": "tempfiles",
+    "description": "Periodically remove old files from a directory",
+    "version": "0.1.0",
+    "author" : "Andris Reinman",
+    "homepage":"http://github.com/andris9/tempfiles",
+    "maintainers":[
+        {
+            "name":"andris",
+            "email":"andris@node.ee"
+        }
+    ],   
+    "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/andris9/tempfiles.git"
+    },
+    "main" : ".",
+    "licenses" : [
+        {
+            "type": "MIT",
+            "url": "http://github.com/andris9/tempfiles/blob/master/LICENSE"
+        }
+    ]
+}
