@@ -21,7 +21,6 @@ function cleanPeriodically(dir, ttl, callback){
             fs.readdir(dir, function(err, files){
                 
                 if(files && files.length){
-                    console.log("Found "+files.length+" files");
                     walkFiles();
                 }
                 
@@ -96,7 +95,6 @@ function checkDir(dir, mode, callback){
         var curdir;
         
         if(!dirs.length){
-            console.log(created);
             return callback(null, true);
         }
         
